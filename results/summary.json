@@ -1,0 +1,88 @@
+{
+  "configuration": {
+    "episodes": 3,
+    "initial_seed": 42,
+    "max_turns": 200,
+    "dictionary": "bundled teaching",
+    "dictionary_size": 4166,
+    "policy": "greedy vs greedy",
+    "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\mdngu\\anaconda3\\envs\\rl_demo\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "gymnasium": "1.4.0",
+    "numpy": "2.4.6",
+    "memory_note": "Python peaks use tracemalloc; tracing is enabled during all timings. Episode peaks include live allocations from setup and retained earlier CSV rows. RSS includes interpreter/native allocations; process peak is a process-lifetime high-water mark, not a per-episode delta.",
+    "timing_note": "Episode runtime includes reset, bookkeeping, and memory sampling, but excludes setup and final file writes. Turn runtime excludes memory sampling, CSV row construction, and optional rendering."
+  },
+  "setup_seconds": 0.05690860003232956,
+  "summary": {
+    "episode_length_mean": 33.333333333333336,
+    "episode_runtime_seconds_mean": 7.218139600008726,
+    "legal_placements_per_turn_mean": 151.7,
+    "generation_seconds_mean": 0.21312470100237987,
+    "python_peak_bytes": 9055358,
+    "process_lifetime_peak_bytes": 54562816
+  },
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 42,
+      "turns": 38,
+      "scores": [
+        314,
+        258
+      ],
+      "winner": 0,
+      "terminated": true,
+      "truncated": false,
+      "end_reason": "six_scoreless_turns",
+      "legal_placements_mean": 123.34210526315789,
+      "legal_placements_min": 0,
+      "legal_placements_max": 972,
+      "runtime_seconds": 4.830841799965128,
+      "python_peak_bytes": 7749659,
+      "process_rss_bytes": 48640000,
+      "process_lifetime_peak_bytes": 52400128
+    },
+    {
+      "episode": 1,
+      "seed": 43,
+      "turns": 33,
+      "scores": [
+        279,
+        312
+      ],
+      "winner": 1,
+      "terminated": true,
+      "truncated": false,
+      "end_reason": "rack_out",
+      "legal_placements_mean": 128,
+      "legal_placements_min": 8,
+      "legal_placements_max": 656,
+      "runtime_seconds": 8.12068559997715,
+      "python_peak_bytes": 7216334,
+      "process_rss_bytes": 52207616,
+      "process_lifetime_peak_bytes": 52453376
+    },
+    {
+      "episode": 2,
+      "seed": 44,
+      "turns": 29,
+      "scores": [
+        323,
+        376
+      ],
+      "winner": 1,
+      "terminated": true,
+      "truncated": false,
+      "end_reason": "rack_out",
+      "legal_placements_mean": 215.82758620689654,
+      "legal_placements_min": 2,
+      "legal_placements_max": 1134,
+      "runtime_seconds": 8.7028914000839,
+      "python_peak_bytes": 9055358,
+      "process_rss_bytes": 54562816,
+      "process_lifetime_peak_bytes": 54562816
+    }
+  ]
+}
